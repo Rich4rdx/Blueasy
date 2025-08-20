@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+     background-color: rgba(71, 81, 89, 0.8);
+    font-size: 20px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body{
+    margin: 0px;
+ 
+}
+a{
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+    margin-right: 20px;
+    font-size: 20px ;
+}
+.home{
+    color: #4AB7E4;
+    border: #4AB7E4 2px solid ;
+    
+}
+
+.e{
+    color: #4AB7E4;
+
+}
+
+h1{
+    color: white;
+}
+
+.titulo1{
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+  
+  
+}
+
+.seccion1{
+    background-image: url(/assets/Fondo.png);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
