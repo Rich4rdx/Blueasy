@@ -19,9 +19,11 @@ header{
     z-index: 1000;
 }
 
+h2,p,h1,a{
+    font-family: "Noto Sans" sans-serif;
+}
 body{
     margin: 0px;
-  font-family: ;
 }
 a{
     color: white;
