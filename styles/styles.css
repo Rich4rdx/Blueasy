@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -6,7 +12,7 @@ header{
      background-color: rgba(71, 81, 89, 0.8);
     font-size: 20px;
     height: 150px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +21,7 @@ header{
 
 body{
     margin: 0px;
- 
+  font-family: ;
 }
 a{
     color: white;
@@ -80,6 +86,7 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     margin-right: 30px;
+    margin-left: 100px;
   
 }
 
@@ -142,17 +149,18 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: self-start;
+    margin-left: 180px;
 
 }
 
 .seccion4{
     background-color: #515F67;
-    color: #BEC3C5;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 40vh;
+    height: 50vh;
     
  
 }
@@ -163,6 +171,7 @@ h1{
 
 .seccion4 p{
     font-size: 20px;
+
 }
 
 .titulo3::after{
@@ -179,8 +188,235 @@ h1{
     background-color: #515F67;
     padding: 15px 40px;
     border-radius: 3px;
-    border: #364148 2px solid; 
+    border: #101111 2px solid; 
     
    
     
+}
+
+.seccion5{
+    background-color: #4BCAFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+   
+   
+}
+
+.redes{ 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.seccion5 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -250px;
+    font-size: 25px;
+    color: white;
+   line-height: 50px;
+}
+
+
+.titulo4{
+    color: white;
+    font-size: 40px;
+    margin-left: -70px;
+}
+
+.titulo4::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+}
+
+
+.seccion6{
+    display: flex;
+    background-image: url(/assets/bg_whoIs.png);
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 50vh;
+   
+}
+
+.seccion6 p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.seccion6 img{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.titulo5{
+    color: white;
+}
+
+.parrafo1{
+    margin-left: 280px;
+}
+
+
+.seccion7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testimonio{
+  display: flex;
+  justify-content: space-around;
+  width: 220vh;
+}
+
+.seccion7 h2{
+    font-size: 30px;
+    color: #B5BABC;
+}
+
+.titulo6::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #B5BABC;
+}
+.p1{
+    font-size: 30px;
+    margin-left: -70px;
+    color: #B5BABC;
+    line-height: 50px;
+}
+
+.p2{
+    color: #4BCAFF;
+    display: flex;
+    margin-left: -70px;
+    
+   
+}
+
+
+.content{
+    display: flex;
+}
+
+.seccion8{
+    background-image: url(/assets/bg_contact.png);
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact{
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+}
+
+
+.titulo7{
+    font-size: 30px;
+    color: white;
+
+}
+
+.titulo7::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 30px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 15px 0 5px;
+    letter-spacing: 1px;
+    
+}
+
+input{
+    border: #FFFFFF 1px solid;
+    background-color: transparent;
+    height: 60px;
+    width: 60vh;
+    margin-bottom: 20px;
+
+
+}
+
+textarea{
+    border: #FFFFFF 1px solid;
+    background-color: transparent;
+    height: 200px;
+    width: 100vh;
+    margin-bottom: 20px;
+   
+
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 380px;
+    margin-right: 0;
+}
+
+
+.formulario button{
+  background: #00bfff; 
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.formulario button:hover{
+    background-color: #009acd;
+}
+
+.contact{
+  width: 45%;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-left: -200px;
+  margin-top: 100px;
+}
+.casilla1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #353F47;
+    color: #63686b;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
 }
